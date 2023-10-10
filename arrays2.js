@@ -10,7 +10,7 @@ var articulos = [
 ];
 
 // metodo filter : filtra - genera un nuevo array - el parametro de la function es el articulo que va a filtrar
-var articulosFiltrados = articulos.filter(function(articulo){
+var articulosFiltrados = articulos.filter(function(articulo){  
     return articulo.costo <= 500
 });
 
