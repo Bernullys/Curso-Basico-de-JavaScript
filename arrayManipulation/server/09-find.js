@@ -23,7 +23,7 @@ const orders = [
     }
 ];
 
-console.log(numbers.findIndex(num => num === 30))
+console.log(numbers.find(num => num === 30))
 
 const special = orders.findIndex(order => order.total === 180)
 console.log(special)
